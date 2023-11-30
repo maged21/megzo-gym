@@ -252,7 +252,13 @@ button {
     width: 100%;
     padding: 15px 0;
     z-index: 2;
+    transition: background-color 0.3s;
+    backdrop-filter: blur(10px);
 }
+
+.scrolled {
+    background-color: rgba(0, 0, 0, 0.5); /* Black with transparency */
+  }
 
 .header-toggler {
     width: 60px;
